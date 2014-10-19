@@ -17,3 +17,9 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 -Merging helps in adding features created separately to merge into one single file, so that features of both should be available. It's easy to work with diagrams and understand the parent child relationship after merging.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-pros
+We don't have to worry about the changes we are doing nor we have to be in touch with other people working on same file since git will take care of that.
+-cons
+We might run into conflicts and in some case may have to change the whole logic and have to sit and work on it again when we could have just done it earlier if we were doing manual merging.
