@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+- When we initialize a repository git saves some of the files which will help us git tracking the repository for history of commits. If we don't do that git will never know for which folder they have to keep track.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+- First thing staging area is not an actual virtual space like a working directory or a repository. 
+- Staging area is some thing created by git to simply comminting the changes.
+- So if i have a lot of changes to commit but it didn't make sense to commit everything into one commit since they might have different logic. I can push changes related to one thing into the staging area and commit it keeping my other changes available to me and i can commit them later.
