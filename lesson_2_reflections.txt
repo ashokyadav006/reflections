@@ -5,3 +5,9 @@ How is the staging area different from the working directory and the repository?
 - First thing staging area is not an actual virtual space like a working directory or a repository. 
 - Staging area is some thing created by git to simply comminting the changes.
 - So if i have a lot of changes to commit but it didn't make sense to commit everything into one commit since they might have different logic. I can push changes related to one thing into the staging area and commit it keeping my other changes available to me and i can commit them later.
+
+How can you use the staging area to make sure you have one commit per logical change?
+-I will only add those files into the staging area which together make sense for a logical change and keep other chages in working directory. With these changes i will checkin the changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-When we want to add new features to our project and at the same time don't want change the existing code, so that others can work on the same while i implemet a new feature.
