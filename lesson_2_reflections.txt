@@ -14,3 +14,6 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 -With diagrams it's very easy to understand which commint is reachable and which can become unreachable and also it helps to visulize how git must be working internally to track down all the commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-Merging helps in adding features created separately to merge into one single file, so that features of both should be available. It's easy to work with diagrams and understand the parent child relationship after merging.
