@@ -1,1 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
+There may be times when i am not connected to internet, may be i am on the go or holidaying in amazon forest(Might not be the best place to go for holiday though), in these situations if i want to work and i have a local repository i can continue working on it and when i will come back from amazon forest i will commit my changes.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Sometimes i may be working on some new cool feature(obviously) and in this case if Git pull changes automatically it may brake my changes and i don't want to sit everytime to resolve those issues. I will finish my changes and then i will do push pull, having command in your hand has it's own advantages ;) .
