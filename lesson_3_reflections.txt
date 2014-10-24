@@ -11,3 +11,6 @@ on github and work on it as a seperate repo.
 place to another. cloning simply means copying.
 -Branches are basically ways to divide our code in two seperate directions so that we can work on each one of them individually and don't have to clone it or fork it
 into a seperate repo.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+-Having local copy of remote state will help us in checking if there are any conflicts we have with the remove state when we are not online. Although we can't check any new changes in remote since we are offline we can atleast be in synch with the last known state of remote.
