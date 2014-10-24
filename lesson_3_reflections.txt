@@ -14,3 +14,6 @@ into a seperate repo.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 -Having local copy of remote state will help us in checking if there are any conflicts we have with the remove state when we are not online. Although we can't check any new changes in remote since we are offline we can atleast be in synch with the last known state of remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+-Without Git hub we have to communicate through e-mails and have to send updated code with every mail on the other side everytime we have to check the differences and if everything is fine have to manully go and add changes. Overall it's a nightmare. With Git it's cindrella in wonderland obviously without all those creepy creatures.
